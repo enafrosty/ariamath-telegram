@@ -7,12 +7,12 @@ import aiogram
 from aiogram import Bot, Dispatcher, types
 from spotdl import Song, DownloaderOptions, Spotdl
 
-API_TOKEN = "6893705631:AAGPAhZamv_hfHYprAmq3z68DxyhWB5-NYw"  # Replace with your Telegram bot token
-SPOTIFY_CLIENT_ID = "1650881a91af44c0a9551f88dc37d867"  # Replace with your Spotify client ID
-SPOTIFY_CLIENT_SECRET = "dda39a45ea5041bbaee237a81ee07260"  # Replace with your Spotify client secret
+API_TOKEN = "...."  # Replace with your Telegram bot token
+SPOTIFY_CLIENT_ID = "...."  # Replace with your Spotify client ID
+SPOTIFY_CLIENT_SECRET = "...."  # Replace with your Spotify client secret
 
 DOWNLOAD_DIR = "spotify_tracks"
-DOWNLOAD_TIMEOUT = 7 * 24 * 60 * 60  # 7 days in seconds
+DOWNLOAD_TIMEOUT = 7 * 24 * 60 * 60  
 
 logger = logging.getLogger("root")
 logger.setLevel(logging.INFO)
